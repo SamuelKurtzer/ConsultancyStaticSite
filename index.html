@@ -445,6 +445,40 @@
         padding: 2px 0;
       }
     }
+
+    @media (max-width: 560px) {
+      nav {
+        height: 64px;
+        gap: 12px;
+      }
+
+      .brand {
+        white-space: nowrap;
+      }
+
+      .brand span,
+      .nav-links .button.secondary {
+        display: none;
+      }
+
+      .nav-links .button {
+        padding: 9px 14px;
+        white-space: nowrap;
+      }
+
+      .hero {
+        padding: 56px 0 64px;
+      }
+
+      h1 {
+        font-size: clamp(2.4rem, 11vw, 3rem);
+        line-height: 1.02;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
